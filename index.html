@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/rc-logo.png">
     <style>
         body {
             font-family: 'Lato', sans-serif;
@@ -23,6 +24,21 @@
             text-align: center;
             padding: 20px 0;
             border-bottom: 2px solid #0066cc;
+        }
+
+        .profile-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .profile-picture {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #0066cc;
         }
 
         h1,
@@ -77,6 +93,9 @@
 
 <body>
     <header>
+        <div class="profile-container">
+            <img src="/images/doc-placeholder.jpg" alt="Dr. Robert Chouake" class="profile-picture">
+        </div>
         <h1>Dr. Robert Chouake</h1>
         <p><strong>Specialist in Rhinoplasty</strong></p>
     </header>
